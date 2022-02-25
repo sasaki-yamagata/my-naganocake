@@ -1,0 +1,58 @@
+<header class="header">
+  <div class="header_inner">
+    <h1 class="logo">
+    <%= link_to "LOGO", root_path %>
+    </h1>
+    <nav class="nav">
+      <ul class="nav_list">
+        <% if customer_signed_in? %>
+          <li class="nav_item">
+            <%= link_to 'マイページ', customer_path(current_customer) %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "商品一覧", '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "カート", '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "ログアウト", destroy_customer_session_path, method: :delete %>
+          </li>
+        <% elsif admin_signed_in? %>
+          <li class="nav_item">
+            <%= link_to "商品一覧", '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to '会員一覧', '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "注文履歴一覧", '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "ジャンル一覧", '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "ログアウト", destroy_admin_session_path, method: :delete %>
+          </li>
+        
+        <% else %>
+          <li class="nav_item">
+            <%= link_to 'about', about_path %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "商品一覧", '#' %>
+          </li>
+          <li class="nav_item">
+            <%= link_to "新規登録", new_customer_registration_path %>
+          </li>
+          <li class="nav_item">
+            <%=  link_to "ログイン", new_customer_session_path %> 
+          </li>
+        <% end %>
+        
+      </ul>
+    </nav>
+  </div>
+  
+ 
+</header>
