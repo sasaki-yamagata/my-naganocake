@@ -29,7 +29,7 @@ class Customer::SessionsController < Devise::SessionsController
   private
   
   def after_sign_in_path_for(resource)
-    customer_path(resource)
+    mypage_path
   end
 
   def after_sign_out_path_for(resource)
@@ -43,8 +43,9 @@ class Customer::SessionsController < Devise::SessionsController
     
     return if !@customer
     
-    if !@customer.valid_password?(params[:customer][:password]) && @customer.is_unsubscrib
-      redirect_to new_customer_session_path
+    if @customer.valid_password?(params[:customer][:password]) && @customer.is_unsubscrib
+      flash[:notice] = '退会済みです再登録してください'
+      redirect_to new_customer_registration_path
     end
     
   end

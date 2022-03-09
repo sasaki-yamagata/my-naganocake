@@ -5,9 +5,9 @@
     </h1>
     <nav class="nav">
       <ul class="nav_list">
-        <% if customer_signed_in? %>
+        <% if customer_signed_in? && !admin_signed_in? %>
           <li class="nav_item">
-            <%= link_to 'マイページ', customer_path(current_customer) %>
+            <%= link_to 'マイページ', mypage_path %>
           </li>
           <li class="nav_item">
             <%= link_to "商品一覧", '#' %>

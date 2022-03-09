@@ -62,7 +62,7 @@ class Customer::RegistrationsController < Devise::RegistrationsController
   # end
   private
   def after_sign_in_path_for(resource)
-    customer_path(resource)
+    mypage_path
   end
 
   def after_sign_out_path_for(resource)

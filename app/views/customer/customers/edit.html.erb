@@ -1,2 +1,42 @@
-<h1>Customer::Customers#edit</h1>
-<p>Find me in app/views/customer/customers/edit.html.erb</p>
+<h2 class="customer_edit_title">会員情報編集</h2>
+<%= render 'layouts/errors', obj: @customer %>
+<%= form_with model: @customer, url: customer_path, class: 'customer_edit_form' do |f|%>
+  <div class="field row">
+    <%= f.label :family_name, '名前', class: "col-md-2"%>
+    <%= f.label :family_name, '(姓)', class: "col-md-1 text-right"%>
+    <%= f.text_field :family_name, autofocus: true, autocomplete: "family_name", class: "col-md-3"%>
+    <%= f.label :first_name, '(名)', class: "col-md-1 text-right"%>
+    <%= f.text_field :first_name, autofocus: true, autocomplete: "first_name", class: "col-md-3"%>
+  </div>
+  <div class="field row">
+    <%= f.label :family_name_kana, 'フリガナ', class: 'col-md-2' %>
+    <%= f.label :family_name_kana, '(セイ)', class: "col-md-1 text-right" %>
+    <%= f.text_field :family_name_kana, autofocus: true, autocomplete: "family_name_kana", class: "col-md-3"%>
+    <%= f.label :first_name_kana, '(メイ)', class: 'col-md-1 text-right'%>
+    <%= f.text_field :first_name_kana, autofocus: true, autocomplete: "first_name_kana", class: "col-md-3"%>
+  </div>
+
+  <div class="field row">
+    <%= f.label :email, 'メールアドレス', class: "col-md-3"%>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'col-md-3'%>
+  </div>
+  
+  <div class="field row">
+    <%= f.label :postal_code, '郵便番号(ハイフンなし)', class: "col-md-3" %>
+    <%= f.text_field :postal_code, autofocus: true, autocomplete: "postal_code", class: "col-md-3" %>
+  </div>
+  <div class="field row">
+    <%= f.label :address, '住所', class: 'col-md-3' %>
+    <%= f.text_field :address, autofocus: true, autocomplete: "address", class: 'col-md-7' %>
+  </div>
+  <div class="field row">
+    <%= f.label :phone_number, '電話番号(ハイフンなし)', class: 'col-md-3' %>
+    <%= f.telephone_field :phone_number, autofocus: true, autocomplete: "phone_number", class: 'col-md-3' %>
+  </div>
+
+
+  <div class="actions">
+    <%= f.submit "編集内容を保存", class: 'btn btn-success'%>
+    <%= link_to '退会する', confim_customer_path, class: 'btn btn-danger' %>
+  </div>
+<% end %>
