@@ -1,8 +1,8 @@
 <h2 class="customer_show_title">マイページ</h2>
 <div class="customer_info">
   <p class="customer_info_title">登録情報</h3>
-  <%= link_to '編集する', edit_customer_path, class: 'btn btn-success' %>
-  <table class='info_table'>
+  <%= link_to '編集する', edit_customer_path, class: 'btn btn-success edit_btn' %>
+  <table class='info_table table'>
     <tr>
       <th>氏名</th><td><%= "#{@customer.family_name} #{@customer.first_name}" %></td>
     </tr>
@@ -23,11 +23,11 @@
     </tr>
   </table>
 </div>
-<div class="deli_to">
-  <p>配送先</p>
+<div class="deli_to row">
+  <p class="col-md-2">配送先</p>
   <%= link_to '一覧を見る', '#', class: 'btn btn-primary'%>
 </div>
-<div class="order_lists">
-  <p>注文履歴</p>
+<div class="order_lists row">
+  <p class="col-md-2">注文履歴</p>
   <%= link_to '一覧を見る', '#', class: 'btn btn-primary'%>
 </div>

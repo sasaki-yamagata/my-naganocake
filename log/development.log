@@ -14015,3 +14015,1826 @@ Processing by Customer::CustomersController#show as HTML
 Completed 200 OK in 13ms (Views: 6.7ms | ActiveRecord: 0.4ms | Allocations: 6813)
 
 
+Started GET "/" for 157.107.93.199 at 2022-03-09 08:48:07 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (7.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 236)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 14.6ms | Allocations: 11378)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 17685)
+Completed 200 OK in 33ms (Views: 22.7ms | ActiveRecord: 0.5ms | Allocations: 20623)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:48:25 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3911)
+Completed 200 OK in 14ms (Views: 8.5ms | ActiveRecord: 0.3ms | Allocations: 7462)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:48:27 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3602)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 5675)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:48:30 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3602)
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 5675)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:48:31 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3600)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 5653)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 08:48:33 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1109)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 4452)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 4841)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 08:48:54 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3610)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3943)
+
+
+Started GET "/customers/3" for 157.107.93.199 at 2022-03-09 08:49:25 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/customers/3"):
+  
+Started GET "/customers/sign_up" for 157.107.93.199 at 2022-03-09 08:49:28 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::RegistrationsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/mypage
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 3517)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:49:28 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3601)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 5660)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:49:30 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3600)
+Completed 200 OK in 9ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 5653)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:49:33 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3600)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 5653)
+
+
+Started GET "/customer/edit" for 157.107.93.199 at 2022-03-09 08:49:38 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#edit as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:8:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/edit.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.3ms | Allocations: 227)
+  Rendered customer/customers/edit.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2425)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 5919)
+Completed 200 OK in 12ms (Views: 7.6ms | ActiveRecord: 0.2ms | Allocations: 8118)
+
+
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 08:49:42 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.8ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3816)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 5441)
+
+
+Started DELETE "/customer.3" for 157.107.93.199 at 2022-03-09 08:49:51 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#destroy as */*
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+  [1m[36mCustomer Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."email" = ? AND "customers"."id" != ? LIMIT ?[0m  [["email", "ccc@ccc"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+  [1m[36mCustomer Update (0.2ms)[0m  [1m[33mUPDATE "customers" SET "is_unsubscrib" = ?, "updated_at" = ? WHERE "customers"."id" = ?[0m  [["is_unsubscrib", 1], ["updated_at", "2022-03-09 08:49:51.502046"], ["id", 3]]
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 17ms (ActiveRecord: 5.7ms | Allocations: 7282)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 08:49:51 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3604)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3993)
+
+
+Started GET "/customers/sign_in" for 157.107.93.199 at 2022-03-09 08:49:56 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 0.9ms | Allocations: 571)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 5610)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7787)
+
+
+Started POST "/customers/sign_in" for 157.107.93.199 at 2022-03-09 08:50:01 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"ccc@ccc", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "ccc@ccc"], ["LIMIT", 1]]
+  ↳ app/controllers/customer/sessions_controller.rb:42:in `customer_state'
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/customers/sign_up
+Filter chain halted as :customer_state rendered or redirected
+Completed 302 Found in 249ms (ActiveRecord: 0.2ms | Allocations: 3975)
+
+
+Started GET "/customers/sign_up" for 157.107.93.199 at 2022-03-09 08:50:02 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/registrations/new.html.erb within layouts/application
+  Rendered customer/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 235)
+  Rendered customer/shared/_links.html.erb (Duration: 0.3ms | Allocations: 142)
+  Rendered customer/registrations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2510)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 6063)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7543)
+
+
+Started GET "/customers/sign_in" for 157.107.93.199 at 2022-03-09 08:52:49 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 729)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 4277)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4890)
+
+
+Started POST "/customers/sign_in" for 157.107.93.199 at 2022-03-09 08:52:53 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"ddd@ddd", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "ddd@ddd"], ["LIMIT", 1]]
+  ↳ app/controllers/customer/sessions_controller.rb:42:in `customer_state'
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["email", "ddd@ddd"], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/mypage
+Completed 302 Found in 492ms (ActiveRecord: 0.3ms | Allocations: 6651)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 08:52:53 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3620)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 5677)
+
+
+Started GET "/customer/edit" for 157.107.93.199 at 2022-03-09 08:52:59 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#edit as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:8:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/edit.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered customer/customers/edit.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1156)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 4643)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.2ms | Allocations: 6696)
+
+
+Started GET "/rails/info/routes" for 157.107.93.199 at 2022-03-09 08:56:19 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-6.1.4.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [51 times] (Duration: 6.3ms | Allocations: 5756)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-6.1.4.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.9ms | Allocations: 728)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 21.8ms | Allocations: 10622)
+  Rendered layout /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/layouts/application.html.erb (Duration: 22.9ms | Allocations: 10860)
+Completed 200 OK in 25ms (Views: 24.1ms | Allocations: 11978)
+
+
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 08:56:36 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.7ms | Allocations: 312)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 688)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 5933)
+Completed 200 OK in 24ms (Views: 10.2ms | ActiveRecord: 0.8ms | Allocations: 18404)
+
+
+Started DELETE "/customer.4" for 157.107.93.199 at 2022-03-09 08:56:39 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/customer.4"):
+  
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 08:58:15 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.8ms | Allocations: 309)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 673)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 4670)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 6990)
+
+
+Started PATCH "/customer.4" for 157.107.93.199 at 2022-03-09 08:58:18 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#update as */*
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:12:in `update'
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.3ms | Allocations: 2421)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: customer):
+  
+app/controllers/customer/customers_controller.rb:33:in `customer_params'
+app/controllers/customer/customers_controller.rb:13:in `update'
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 08:58:40 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.5ms | Allocations: 172)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3664)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 5159)
+
+
+Started GET "/customer/edit" for 157.107.93.199 at 2022-03-09 08:59:44 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#edit as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:8:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/edit.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.4ms | Allocations: 220)
+  Rendered customer/customers/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 673)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6464)
+Completed 200 OK in 15ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 9353)
+
+
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 08:59:48 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.7ms | Allocations: 246)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3751)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.1ms | Allocations: 5375)
+
+
+Started PATCH "/customer/destroy" for 157.107.93.199 at 2022-03-09 08:59:50 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+  [1m[36mCustomer Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."email" = ? AND "customers"."id" != ? LIMIT ?[0m  [["email", "ddd@ddd"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+  [1m[36mCustomer Update (0.2ms)[0m  [1m[33mUPDATE "customers" SET "is_unsubscrib" = ?, "updated_at" = ? WHERE "customers"."id" = ?[0m  [["is_unsubscrib", 1], ["updated_at", "2022-03-09 08:59:50.568825"], ["id", 4]]
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/customer/customers_controller.rb:24:in `destroy'
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 15ms (ActiveRecord: 4.4ms | Allocations: 7069)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 08:59:50 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 261)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3649)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 4656)
+
+
+Started GET "/customers/sign_in" for 157.107.93.199 at 2022-03-09 08:59:53 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 0.5ms | Allocations: 286)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4889)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6914)
+
+
+Started POST "/customers/sign_in" for 157.107.93.199 at 2022-03-09 09:00:06 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"ddd@ddd", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "ddd@ddd"], ["LIMIT", 1]]
+  ↳ app/controllers/customer/sessions_controller.rb:42:in `customer_state'
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/customers/sign_up
+Filter chain halted as :customer_state rendered or redirected
+Completed 302 Found in 243ms (ActiveRecord: 0.2ms | Allocations: 1133)
+
+
+Started GET "/customers/sign_up" for 157.107.93.199 at 2022-03-09 09:00:06 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/registrations/new.html.erb within layouts/application
+  Rendered customer/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 230)
+  Rendered customer/shared/_links.html.erb (Duration: 0.2ms | Allocations: 108)
+  Rendered customer/registrations/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 5969)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 7550)
+
+
+Started POST "/customers" for 157.107.93.199 at 2022-03-09 09:00:25 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"family_name"=>"eee", "first_name"=>"eee", "family_name_kana"=>"eee", "first_name_kana"=>"eee", "email"=>"eee@eee", "postal_code"=>"000", "address"=>"eee", "phone_number"=>"000", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "eee@eee"], ["LIMIT", 1]]
+  [1m[36mCACHE Customer Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "eee@eee"], ["LIMIT", 1]]
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "family_name", "first_name", "family_name_kana", "first_name_kana", "postal_code", "address", "phone_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "eee@eee"], ["encrypted_password", "$2a$12$N1DhLSr9vD88fU7zlIM5ZOh0KGmZkiFzn6pEXuylJ9S5iYAurrH52"], ["family_name", "eee"], ["first_name", "eee"], ["family_name_kana", "eee"], ["first_name_kana", "eee"], ["postal_code", "000"], ["address", "eee"], ["phone_number", "000"], ["created_at", "2022-03-09 09:00:25.943307"], ["updated_at", "2022-03-09 09:00:25.943307"]]
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/mypage
+Completed 302 Found in 257ms (ActiveRecord: 4.3ms | Allocations: 10229)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 09:00:26 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3888)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.2ms | Allocations: 6078)
+
+
+Started GET "/customer/edit" for 157.107.93.199 at 2022-03-09 09:00:29 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#edit as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:8:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/edit.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered customer/customers/edit.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1156)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 4644)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 6699)
+
+
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 09:00:33 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.3ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3603)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.1ms | Allocations: 5099)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 09:00:35 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3600)
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 5652)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:18:19 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 714)
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 7328)
+Completed 200 OK in 104ms (Views: 52.8ms | ActiveRecord: 0.9ms | Allocations: 22481)
+
+
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:18:28 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 1.0ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 5.3ms | Allocations: 1127)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4553)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.1ms | Allocations: 5603)
+
+
+Started GET "/rails/info/routes" for 157.107.93.199 at 2022-03-09 11:18:33 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-6.1.4.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [53 times] (Duration: 8.6ms | Allocations: 5993)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-6.1.4.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 6.8ms | Allocations: 938)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 21.3ms | Allocations: 11211)
+  Rendered layout /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/templates/layouts/application.html.erb (Duration: 24.0ms | Allocations: 11451)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 12573)
+
+
+Started GET "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:19:18 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 1.0ms | Allocations: 178)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 15.7ms | Allocations: 5712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 1567)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 10955)
+Completed 200 OK in 34ms (Views: 27.6ms | ActiveRecord: 0.3ms | Allocations: 17890)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:19:23 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1533)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1604)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2592)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>会員一覧</h2>
+<table class="admin_customer_index">
+  <thead>
+    <tr>
+      <th>会員ID</th>
+      <th>氏名</th>
+      <th>メールアドレス</th>
+      <th>ステータス</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @customers.each do |customer| %>
+    <tr>
+      <td><%= customer.id %></td>
+      <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+      <td><%= customer.email %></td>
+      <td>
+        <% if customer.is_unsubscrib %>
+          退会
+        <% else %>
+          有効
+      </td>
+    </tr>
+  </tbody>
+</table>
+):
+1:    <h2>会員一覧</h2>
+2:    <table class="admin_customer_index">
+3:      <thead>
+4:        <tr>
+5:          <th>会員ID</th>
+6:          <th>氏名</th>
+7:          <th>メールアドレス</th>
+8:          <th>ステータス</th>
+9:        </tr>
+10:      </thead>
+11:      <tbody>
+12:        <% @customers.each do |customer| %>
+13:        <tr>
+14:          <td><%= customer.id %></td>
+15:          <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+16:          <td><%= customer.email %></td>
+17:          <td>
+18:            <% if customer.is_unsubscrib %>
+19:              退会
+20:            <% else %>
+21:              有効
+22:          </td>
+23:        </tr>
+24:      </tbody>
+25:    </table>
+  
+app/views/admin/customers/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:19:41 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1240)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1311)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>会員一覧</h2>
+<table class="admin_customer_index">
+  <thead>
+    <tr>
+      <th>会員ID</th>
+      <th>氏名</th>
+      <th>メールアドレス</th>
+      <th>ステータス</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @customers.each do |customer| %>
+    <tr>
+      <td><%= customer.id %></td>
+      <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+      <td><%= customer.email %></td>
+      <td>
+        <% if customer.is_unsubscrib %>
+          退会
+        <% else %>
+          有効
+        <% end %>
+      </td>
+    </tr>
+  </tbody>
+</table>
+):
+1:    <h2>会員一覧</h2>
+2:    <table class="admin_customer_index">
+3:      <thead>
+4:        <tr>
+5:          <th>会員ID</th>
+6:          <th>氏名</th>
+7:          <th>メールアドレス</th>
+8:          <th>ステータス</th>
+9:        </tr>
+10:      </thead>
+11:      <tbody>
+12:        <% @customers.each do |customer| %>
+13:        <tr>
+14:          <td><%= customer.id %></td>
+15:          <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+16:          <td><%= customer.email %></td>
+17:          <td>
+18:            <% if customer.is_unsubscrib %>
+19:              退会
+20:            <% else %>
+21:              有効
+22:            <% end %>
+23:          </td>
+24:        </tr>
+25:      </tbody>
+26:    </table>
+  
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:20:29 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1207)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1279)
+Completed 500 Internal Server Error in 3ms (Allocations: 1855)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>会員一覧</h2>
+<table class="admin_customer_index">
+  <thead>
+    <tr>
+      <th>会員ID</th>
+      <th>氏名</th>
+      <th>メールアドレス</th>
+      <th>ステータス</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @customers.each do |customer| %>
+    <tr>
+      <td><%= customer.id %></td>
+      <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+      <td><%= customer.email %></td>
+      <td>
+        <% if customer.is_unsubscrib %>
+          退会
+        <% else %>
+          有効
+        <% end %>
+      </td>
+    </tr>
+  </tbody>
+</table>
+):
+1:    <h2>会員一覧</h2>
+2:    <table class="admin_customer_index">
+3:      <thead>
+4:        <tr>
+5:          <th>会員ID</th>
+6:          <th>氏名</th>
+7:          <th>メールアドレス</th>
+8:          <th>ステータス</th>
+9:        </tr>
+10:      </thead>
+11:      <tbody>
+12:        <% @customers.each do |customer| %>
+13:        <tr>
+14:          <td><%= customer.id %></td>
+15:          <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+16:          <td><%= customer.email %></td>
+17:          <td>
+18:            <% if customer.is_unsubscrib %>
+19:              退会
+20:            <% else %>
+21:              有効
+22:            <% end %>
+23:          </td>
+24:        </tr>
+25:      </tbody>
+26:    </table>
+  
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:28: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:20:54 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1241)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1312)
+Completed 500 Internal Server Error in 4ms (Allocations: 2535)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h2>会員一覧</h2>
+<table class="admin_customer_index">
+  <thead>
+    <tr>
+      <th>会員ID</th>
+      <th>氏名</th>
+      <th>メールアドレス</th>
+      <th>ステータス</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @customers.each do |customer| %>
+    <tr>
+      <td><%= customer.id %></td>
+      <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+      <td><%= customer.email %></td>
+      <td>
+        <% if customer.is_unsubscrib %>
+          退会
+        <% else %>
+          有効
+        <% end %>
+      </td>
+    </tr>
+    <% end
+  </tbody>
+</table>
+):
+1:    <h2>会員一覧</h2>
+2:    <table class="admin_customer_index">
+3:      <thead>
+4:        <tr>
+5:          <th>会員ID</th>
+6:          <th>氏名</th>
+7:          <th>メールアドレス</th>
+8:          <th>ステータス</th>
+9:        </tr>
+10:      </thead>
+11:      <tbody>
+12:        <% @customers.each do |customer| %>
+13:        <tr>
+14:          <td><%= customer.id %></td>
+15:          <td><%= "#{customer.family_name} {customer.first_name}" %></td>
+16:          <td><%= customer.email %></td>
+17:          <td>
+18:            <% if customer.is_unsubscrib %>
+19:              退会
+20:            <% else %>
+21:              有効
+22:            <% end %>
+23:          </td>
+24:        </tr>
+25:        <% end
+26:      </tbody>
+27:    </table>
+  
+app/views/admin/customers/index.html.erb:29: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:29: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:29: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:29: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:29: syntax error, unexpected end-of-input, expecting end
+app/views/admin/customers/index.html.erb:29: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:21:22 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/layouts/_header.html.erb:8
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 14.4ms | Allocations: 10772)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 14538)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.9ms | Allocations: 15767)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:21:47 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 1107)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5528)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.4ms | Allocations: 6542)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:22:08 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1049)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 1583)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6322)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.3ms | Allocations: 7554)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:22:55 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1049)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 1583)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 6321)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms | Allocations: 7552)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:24:54 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1058)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.6ms | Allocations: 1584)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 6332)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms | Allocations: 7563)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:26:16 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1054)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 1583)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6328)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms | Allocations: 7566)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:26:26 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1049)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 1583)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 6321)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms | Allocations: 7552)
+
+
+Started DELETE "/customers/sign_out" for 157.107.93.199 at 2022-03-09 11:26:51 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms | Allocations: 2389)
+
+
+Started DELETE "/customers/sign_out" for 157.107.93.199 at 2022-03-09 11:26:51 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1741)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 11:26:51 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 1.1ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 260)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3693)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4700)
+
+
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:26:58 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3675)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4642)
+
+
+Started GET "/customers/sign_in" for 157.107.93.199 at 2022-03-09 11:27:00 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 3.0ms | Allocations: 569)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1740)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 5293)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 7191)
+
+
+Started GET "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:27:15 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.3ms | Allocations: 173)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1297)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4811)
+Completed 200 OK in 14ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 9726)
+
+
+Started GET "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:27:20 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 213)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4205)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4806)
+
+
+Started POST "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:27:25 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 256ms (ActiveRecord: 0.2ms | Allocations: 4544)
+
+
+Processing by Admin::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 664)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4136)
+Completed 200 OK in 249ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4677)
+
+
+Started POST "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:27:29 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/admin
+Completed 302 Found in 247ms (ActiveRecord: 0.1ms | Allocations: 3581)
+
+
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:27:30 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 3.0ms | Allocations: 1124)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4473)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 4868)
+
+
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:28:45 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 14.0ms | Allocations: 5199)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 8994)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.1ms | Allocations: 10198)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_customer' for #<ActionView::Base:0x007ff03c1792b8>
+Did you mean?  admin_customer_url):
+    23:             <%= link_to "商品一覧", '#' %>
+    24:           </li>
+    25:           <li class="nav_item">
+    26:             <%= link_to '会員一覧', admin_customer %>
+    27:           </li>
+    28:           <li class="nav_item">
+    29:             <%= link_to "注文履歴一覧", '#' %>
+  
+app/views/layouts/_header.html.erb:26
+app/views/layouts/application.html.erb:19
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:28:53 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 1588)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5394)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 6619)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:28:55 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1048)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 1109)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5463)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 6478)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:32:14 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1050)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 5.1ms | Allocations: 1590)
+  Rendered layout layouts/application.html.erb (Duration: 65.9ms | Allocations: 23878)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.3ms | Allocations: 25109)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:34:10 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 805)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 1101)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 5211)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms | Allocations: 5612)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:34:12 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 805)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.7ms | Allocations: 1100)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 5207)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms | Allocations: 5607)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 11:34:15 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 3.0ms | Allocations: 1112)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4533)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 5536)
+
+
+Started DELETE "/admin/sign_out" for 157.107.93.199 at 2022-03-09 11:34:18 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/admin/sign_in
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 1828)
+
+
+Started GET "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:34:18 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1249)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4805)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6693)
+
+
+Started GET "/customers/sign_in" for 157.107.93.199 at 2022-03-09 11:34:23 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 0.5ms | Allocations: 277)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4912)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6106)
+
+
+Started POST "/customers/sign_in" for 157.107.93.199 at 2022-03-09 11:34:29 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"eee@eee", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "eee@eee"], ["LIMIT", 1]]
+  ↳ app/controllers/customer/sessions_controller.rb:42:in `customer_state'
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["email", "eee@eee"], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/mypage
+Completed 302 Found in 499ms (ActiveRecord: 0.4ms | Allocations: 4393)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:34:30 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 397)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3861)
+Completed 200 OK in 17ms (Views: 11.4ms | ActiveRecord: 0.3ms | Allocations: 6688)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:36:17 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4749)
+Completed 200 OK in 14ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 7631)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:36:54 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 14964)
+Completed 200 OK in 29ms (Views: 23.5ms | ActiveRecord: 0.2ms | Allocations: 17016)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:39:40 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 13972)
+Completed 200 OK in 27ms (Views: 21.9ms | ActiveRecord: 0.2ms | Allocations: 16023)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:40:06 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 13108)
+Completed 200 OK in 41ms (Views: 36.3ms | ActiveRecord: 0.2ms | Allocations: 15159)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:40:25 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 14496)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 0.2ms | Allocations: 16547)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:43:26 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 13860)
+Completed 200 OK in 30ms (Views: 24.4ms | ActiveRecord: 0.2ms | Allocations: 16746)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:43:50 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4756)
+Completed 200 OK in 14ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 7643)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:44:10 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4748)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 7628)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:44:23 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 13111)
+Completed 200 OK in 28ms (Views: 22.7ms | ActiveRecord: 0.2ms | Allocations: 15163)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:45:42 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4748)
+Completed 200 OK in 14ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 7628)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:46:04 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 394)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4755)
+Completed 200 OK in 16ms (Views: 10.1ms | ActiveRecord: 0.3ms | Allocations: 7642)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:46:42 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 15185)
+Completed 200 OK in 30ms (Views: 24.3ms | ActiveRecord: 0.2ms | Allocations: 18065)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:47:23 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 14985)
+Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 0.2ms | Allocations: 17037)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:47:33 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 32.5ms | Allocations: 3641)
+Completed 200 OK in 42ms (Views: 33.5ms | ActiveRecord: 0.3ms | Allocations: 5692)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:47:35 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3600)
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 5651)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:47:46 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 393)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4754)
+Completed 200 OK in 14ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 7641)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:48:35 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 13791)
+Completed 200 OK in 29ms (Views: 23.7ms | ActiveRecord: 0.2ms | Allocations: 16671)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:49:56 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 671)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 14744)
+Completed 200 OK in 32ms (Views: 26.0ms | ActiveRecord: 0.3ms | Allocations: 17624)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:50:11 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3604)
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 5658)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:50:14 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3601)
+Completed 200 OK in 10ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 5655)
+
+
+Started GET "/customer/edit" for 157.107.93.199 at 2022-03-09 11:50:29 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#edit as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:8:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/edit.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 1.2ms | Allocations: 226)
+  Rendered customer/customers/edit.html.erb within layouts/application (Duration: 15.8ms | Allocations: 4752)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 8147)
+Completed 200 OK in 27ms (Views: 21.5ms | ActiveRecord: 0.3ms | Allocations: 10329)
+
+
+Started GET "/customer/confim" for 157.107.93.199 at 2022-03-09 11:50:35 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#confim as HTML
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/confim.html.erb within layouts/application
+  Rendered customer/customers/confim.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3757)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.3ms | Allocations: 5381)
+
+
+Started GET "/mypage" for 157.107.93.199 at 2022-03-09 11:50:40 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::CustomersController#show as HTML
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/customer/customers_controller.rb:4:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering customer/customers/show.html.erb within layouts/application
+  Rendered customer/customers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3601)
+Completed 200 OK in 17ms (Views: 10.5ms | ActiveRecord: 0.3ms | Allocations: 5654)
+
+
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:50:57 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 1109)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4530)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 5531)
+
+
+Started DELETE "/customers/sign_out" for 157.107.93.199 at 2022-03-09 11:51:08 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1735)
+
+
+Started GET "/" for 157.107.93.199 at 2022-03-09 11:51:08 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3682)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4656)
+
+
+Started GET "/customers/sign_in" for 157.107.93.199 at 2022-03-09 11:51:15 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1365)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 4919)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
+Started POST "/customers/sign_in" for 157.107.93.199 at 2022-03-09 11:51:19 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+  ↳ app/controllers/customer/sessions_controller.rb:42:in `customer_state'
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."email" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.2ms | Allocations: 2003)
+
+
+Processing by Customer::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering layout layouts/application.html.erb
+  Rendering customer/sessions/new.html.erb within layouts/application
+  Rendered customer/shared/_links.html.erb (Duration: 0.2ms | Allocations: 95)
+  Rendered customer/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 718)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 190)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4231)
+Completed 200 OK in 249ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4804)
+
+
+Started GET "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:51:31 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1241)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4795)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5980)
+
+
+Started GET "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:51:33 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 213)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4205)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4805)
+
+
+Started POST "/admin/sign_in" for 157.107.93.199 at 2022-03-09 11:51:40 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/admin
+Completed 302 Found in 246ms (ActiveRecord: 0.2ms | Allocations: 3554)
+
+
+Started GET "/admin" for 157.107.93.199 at 2022-03-09 11:51:41 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 1111)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4460)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 4854)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:51:45 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1050)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.7ms | Allocations: 1109)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5465)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 6456)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:56:06 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 10459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 14.7ms | Allocations: 6173)
+  Rendered layout layouts/application.html.erb (Duration: 63.1ms | Allocations: 32108)
+Completed 200 OK in 75ms (Views: 63.3ms | ActiveRecord: 1.4ms | Allocations: 35106)
+
+
+Started GET "/admin/customers" for 157.107.93.199 at 2022-03-09 11:56:08 +0000
+Cannot render console from 157.107.93.199! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5223)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 5633)
+
+

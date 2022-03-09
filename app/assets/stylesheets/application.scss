@@ -106,3 +106,28 @@ ul {
   text-align: center;
   color: black;
 }
+
+.table_text {
+  margin-bottom: 0;
+}
+.info_table {
+  max-width: 500px;
+}
+.deli_to {
+  // display: flex;
+  margin-bottom: 20px;
+  a {
+    display: block;
+  }
+}
+.order_lists {
+  // display: flex;
+  a {
+    display: block;
+  }
+}
+.edit_btn {
+  display: inline-block;
+  margin-left: 20px;
+  color: black;
+}

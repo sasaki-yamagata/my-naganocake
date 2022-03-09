@@ -1,5 +1,5 @@
 <h2>会員一覧</h2>
-<table class="admin_customer_index">
+<table class="admin_customer_index table">
   <thead>
     <tr>
       <th>会員ID</th>
@@ -12,8 +12,16 @@
     <% @customers.each do |customer| %>
     <tr>
       <td><%= customer.id %></td>
-      <td><%= "#{customer.family_name}}" %></td>
-      
+      <td><%= "#{customer.family_name} #{customer.first_name}" %></td>
+      <td><%= customer.email %></td>
+      <td>
+        <% if customer.is_unsubscrib %>
+          <p class="text-secondary table_text">退会</p>
+        <% else %>
+          <p class="text-success table_text">有効</p>
+        <% end %>
+      </td>
     </tr>
+    <% end %>
   </tbody>
 </table>

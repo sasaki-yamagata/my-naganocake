@@ -17,15 +17,19 @@ Rails.application.routes.draw do
   get 'about' => "customer/homes#about"
   
   scope module: :customer do
-    resource :customer, only: [:edit, :update, :destroy] do
+    resource :customer, only: [:edit, :update] do
       collection do
         get 'confim'
       end
     end
   end
   get '/mypage' => 'customer/customers#show'
+  patch '/customer/destroy' => 'customer/customers#destroy'
   
   # 管理者用
   get 'admin' => 'admin/homes#top'
+  namespace :admin do
+    resources :customers, only: [:index, :show, :uppdate]
+  end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
