@@ -1,0 +1,13 @@
+<h2>商品一覧</h2>
+<p><%= "(全#{Item.count}件)" %></p>
+<div class="items_index_customer">
+  <% @items.each do |item| %>
+   <div class="item_card shadow-sm ">
+     <div class="item_image_wrrap">
+        <%= image_tag item.image, class: 'item_image' %>
+     </div>
+     <p class="item_name"><%= item.name %></p>
+     <p class="item_price">¥<%= ((item.tax_excluded_price * 1.1).round).to_s(:delimited) %></p>
+   </div>
+  <% end %>
+</div>

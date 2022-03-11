@@ -19,6 +19,7 @@ Rails.application.routes.draw do
     end
   end
   get '/mypage' => 'customer/customers#show'
+  get '/items' => 'customer/items#index'
   patch '/customer/destroy' => 'customer/customers#destroy'
   
   # 管理者用
