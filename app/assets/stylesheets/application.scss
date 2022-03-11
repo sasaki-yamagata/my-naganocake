@@ -130,3 +130,26 @@ ul {
   display: inline-block;
   margin-left: 20px;
 }
+.genre-form {
+  display: flex;
+  margin-bottom: 60px;
+}
+.genres_table {
+  max-width: 500px;
+}
+
+.genre_form_group {
+  margin-right: 50px;
+  .genre_label {
+    margin-right: 50px;
+  }
+}
+.genre-edit {
+  display: flex;
+}
+.genre_edit_group {
+  margin-right: 50px;
+  .genre_label {
+    margin-right: 50px;
+  }
+}

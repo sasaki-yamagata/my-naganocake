@@ -1,10 +1,5 @@
 Rails.application.routes.draw do
 
-  namespace :admin do
-    get 'customers/index'
-    get 'customers/show'
-    get 'customers/edit'
-  end
   devise_for :customers, skip: [:passwords], controllers: {
     registrations: "customer/registrations",
     sessions: "customer/sessions"
@@ -30,6 +25,9 @@ Rails.application.routes.draw do
   get 'admin' => 'admin/homes#top'
   namespace :admin do
     resources :customers, only: [:index, :show, :uppdate]
+    resources :items, only: [:index, :new, :create, :show, :edit, :update]
+    resources :genres, only: [:index, :create, :edit, :update]
   end
+  
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
