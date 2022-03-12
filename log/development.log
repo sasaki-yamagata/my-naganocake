@@ -24101,3 +24101,683 @@ Processing by ActiveStorage::DiskController#show as JPEG
 Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 287)
 
 
+Started GET "/about" for 114.177.27.197 at 2022-03-11 11:27:48 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Customer::HomesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/about.html.erb within layouts/application
+  Rendered customer/homes/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 2.7ms | Allocations: 792)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 19931)
+Completed 200 OK in 43ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 22959)
+
+
+Started GET "/" for 114.177.27.197 at 2022-03-11 11:27:50 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/top.html.erb within layouts/application
+  Rendered customer/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3837)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 4355)
+
+
+Started GET "/items" for 114.177.27.197 at 2022-03-11 11:27:53 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::ItemsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/items/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  ↳ app/views/customer/items/index.html.erb:2
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/customer/items/index.html.erb:4
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 1], ["record_type", "Item"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "Item"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Item"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  Rendered customer/items/index.html.erb within layouts/application (Duration: 41.5ms | Allocations: 32665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 36278)
+Completed 200 OK in 51ms (Views: 46.3ms | ActiveRecord: 1.8ms | Allocations: 39094)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4c9f8f01a2d42bc38f4464fd5fb04a2ad43e2182/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:27:53 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4c9f8f01a2d42bc38f4464fd5fb04a2ad43e2182", "filename"=>"rails_image"}
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--571e5cbd2bb6c1a1606270f568e831e0a8139850/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:27:54 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--571e5cbd2bb6c1a1606270f568e831e0a8139850", "filename"=>"rails_image"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[36m  Disk Storage (0.3ms) [0m[34mGenerated URL for file at key: dviwvi3qkfrwkq4v0girkg9llqmc (https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaSFpwZDNacE0zRnJabkozYTNFMGRqQm5hWEpyWnpsc2JIRnRZd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--18247b944bfb8d1d02a34b78e637ae8c8a206049/rails_image.jpg)[0m
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaSFpwZDNacE0zRnJabkozYTNFMGRqQm5hWEpyWnpsc2JIRnRZd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--18247b944bfb8d1d02a34b78e637ae8c8a206049/rails_image.jpg
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms | Allocations: 2440)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--be8564dc1532ad996f4462669cad2ef5e3307860/cake-gdfdc21191_640.jpg" for 114.177.27.197 at 2022-03-11 11:27:54 +0000
+[36m  Disk Storage (0.6ms) [0m[34mGenerated URL for file at key: h6r0z4gwoucg090yerigsznad4l9 (https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhhRFp5TUhvMFozZHZkV05uTURrd2VXVnlhV2R6ZW01aFpEUnNPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--cae419cd642dc29dfff5a01dd16ade135237c774/rails_image.jpg)[0m
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhhRFp5TUhvMFozZHZkV05uTURrd2VXVnlhV2R6ZW01aFpEUnNPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--cae419cd642dc29dfff5a01dd16ade135237c774/rails_image.jpg
+Completed 302 Found in 15ms (ActiveRecord: 0.1ms | Allocations: 10419)
+
+
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--be8564dc1532ad996f4462669cad2ef5e3307860", "filename"=>"cake-gdfdc21191_640"}
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[36m  Disk Storage (0.3ms) [0m[34mGenerated URL for file at key: zpipbdd0df3tnq9us1g0c156rdh2 (https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlbkJwY0dKa1pEQmtaak4wYm5FNWRYTXhaekJqTVRVMmNtUm9NZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpV1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1OaGEyVXRaMlJtWkdNeU1URTVNVjgyTkRBdWFuQm5JanNnWm1sc1pXNWhiV1VxUFZWVVJpMDRKeWRqWVd0bExXZGtabVJqTWpFeE9URmZOalF3TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEMmx0WVdkbEwycHdaV2NHT3daVU9oRnpaWEoyYVdObFgyNWhiV1U2Q214dlkyRnMiLCJleHAiOiIyMDIyLTAzLTExVDExOjMyOjU0LjAxOFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--7ed0fdcd3219cc68c6b62b20a6b5f74c86537a4a/cake-gdfdc21191_640.jpg)[0m
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlbkJwY0dKa1pEQmtaak4wYm5FNWRYTXhaekJqTVRVMmNtUm9NZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpV1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1OaGEyVXRaMlJtWkdNeU1URTVNVjgyTkRBdWFuQm5JanNnWm1sc1pXNWhiV1VxUFZWVVJpMDRKeWRqWVd0bExXZGtabVJqTWpFeE9URmZOalF3TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEMmx0WVdkbEwycHdaV2NHT3daVU9oRnpaWEoyYVdObFgyNWhiV1U2Q214dlkyRnMiLCJleHAiOiIyMDIyLTAzLTExVDExOjMyOjU0LjAxOFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--7ed0fdcd3219cc68c6b62b20a6b5f74c86537a4a/cake-gdfdc21191_640.jpg
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 2424)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaSFpwZDNacE0zRnJabkozYTNFMGRqQm5hWEpyWnpsc2JIRnRZd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--18247b944bfb8d1d02a34b78e637ae8c8a206049/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:27:54 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rails_image"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 330)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhhRFp5TUhvMFozZHZkV05uTURrd2VXVnlhV2R6ZW01aFpEUnNPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--cae419cd642dc29dfff5a01dd16ade135237c774/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:27:54 +0000
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlbkJwY0dKa1pEQmtaak4wYm5FNWRYTXhaekJqTVRVMmNtUm9NZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpV1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1OaGEyVXRaMlJtWkdNeU1URTVNVjgyTkRBdWFuQm5JanNnWm1sc1pXNWhiV1VxUFZWVVJpMDRKeWRqWVd0bExXZGtabVJqTWpFeE9URmZOalF3TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEMmx0WVdkbEwycHdaV2NHT3daVU9oRnpaWEoyYVdObFgyNWhiV1U2Q214dlkyRnMiLCJleHAiOiIyMDIyLTAzLTExVDExOjMyOjU0LjAxOFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--7ed0fdcd3219cc68c6b62b20a6b5f74c86537a4a/cake-gdfdc21191_640.jpg" for 114.177.27.197 at 2022-03-11 11:27:54 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rails_image"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"cake-gdfdc21191_640"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhhRFp5TUhvMFozZHZkV05uTURrd2VXVnlhV2R6ZW01aFpEUnNPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--cae419cd642dc29dfff5a01dd16ade135237c774/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:29:14 +0000
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaSFpwZDNacE0zRnJabkozYTNFMGRqQm5hWEpyWnpsc2JIRnRZd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--18247b944bfb8d1d02a34b78e637ae8c8a206049/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:29:14 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rails_image"}
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlbkJwY0dKa1pEQmtaak4wYm5FNWRYTXhaekJqTVRVMmNtUm9NZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpV1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1OaGEyVXRaMlJtWkdNeU1URTVNVjgyTkRBdWFuQm5JanNnWm1sc1pXNWhiV1VxUFZWVVJpMDRKeWRqWVd0bExXZGtabVJqTWpFeE9URmZOalF3TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEMmx0WVdkbEwycHdaV2NHT3daVU9oRnpaWEoyYVdObFgyNWhiV1U2Q214dlkyRnMiLCJleHAiOiIyMDIyLTAzLTExVDExOjMyOjU0LjAxOFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--7ed0fdcd3219cc68c6b62b20a6b5f74c86537a4a/cake-gdfdc21191_640.jpg" for 114.177.27.197 at 2022-03-11 11:29:14 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"cake-gdfdc21191_640"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/about" for 114.177.27.197 at 2022-03-11 11:29:14 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::HomesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/homes/about.html.erb within layouts/application
+  Rendered customer/homes/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3755)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 4142)
+
+
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Completed 200 OK in 10ms (ActiveRecord: 0.0ms | Allocations: 7856)
+
+
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rails_image"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/items" for 114.177.27.197 at 2022-03-11 11:29:14 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Customer::ItemsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customer/items/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  ↳ app/views/customer/items/index.html.erb:2
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/customer/items/index.html.erb:4
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 1], ["record_type", "Item"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "Item"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Item"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/customer/items/index.html.erb:7
+  Rendered customer/items/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 7556)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 11255)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.7ms | Allocations: 11654)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhhRFp5TUhvMFozZHZkV05uTURrd2VXVnlhV2R6ZW01aFpEUnNPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--cae419cd642dc29dfff5a01dd16ade135237c774/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:29:15 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaSFpwZDNacE0zRnJabkozYTNFMGRqQm5hWEpyWnpsc2JIRnRZd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW5KaGFXeHpYMmx0WVdkbExtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuY21GcGJITmZhVzFoWjJVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMi0wMy0xMVQxMTozMjo1NC4wMTBaIiwicHVyIjoiYmxvYl9rZXkifX0=--18247b944bfb8d1d02a34b78e637ae8c8a206049/rails_image.jpg" for 114.177.27.197 at 2022-03-11 11:29:15 +0000
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlbkJwY0dKa1pEQmtaak4wYm5FNWRYTXhaekJqTVRVMmNtUm9NZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpV1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1OaGEyVXRaMlJtWkdNeU1URTVNVjgyTkRBdWFuQm5JanNnWm1sc1pXNWhiV1VxUFZWVVJpMDRKeWRqWVd0bExXZGtabVJqTWpFeE9URmZOalF3TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEMmx0WVdkbEwycHdaV2NHT3daVU9oRnpaWEoyYVdObFgyNWhiV1U2Q214dlkyRnMiLCJleHAiOiIyMDIyLTAzLTExVDExOjMyOjU0LjAxOFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--7ed0fdcd3219cc68c6b62b20a6b5f74c86537a4a/cake-gdfdc21191_640.jpg" for 114.177.27.197 at 2022-03-11 11:29:15 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rails_image"}
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rails_image"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"cake-gdfdc21191_640"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 2266)
+
+
+Started GET "/admin/sign_in" for 114.177.27.197 at 2022-03-11 11:29:24 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (Duration: 0.3ms | Allocations: 178)
+  Rendered admin/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 5780)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 11738)
+
+
+Started POST "/admin/sign_in" for 114.177.27.197 at 2022-03-11 11:29:35 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"a@a", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+Redirected to https://b9331da73e044156a3d2e22f93269c49.vfs.cloud9.us-east-1.amazonaws.com/admin
+Completed 302 Found in 248ms (ActiveRecord: 0.2ms | Allocations: 4687)
+
+
+Started GET "/admin" for 114.177.27.197 at 2022-03-11 11:29:35 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/homes/top.html.erb within layouts/application
+  Rendered admin/homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.6ms | Allocations: 1160)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4739)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms | Allocations: 5725)
+
+
+Started GET "/admin/customers" for 114.177.27.197 at 2022-03-11 11:29:39 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 21.5ms | Allocations: 9499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 1129)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 14082)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.7ms | Allocations: 15140)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:29:41 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 7245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 10989)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.7ms | Allocations: 13415)
+
+
+Started GET "/admin/items/3" for 114.177.27.197 at 2022-03-11 11:29:45 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/show.html.erb within layouts/application
+  Rendered admin/items/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 239)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3810)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 5430)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:29:48 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 6747)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.3ms | Allocations: 8248)
+
+
+Started GET "/admin/genres" for 114.177.27.197 at 2022-03-11 11:29:51 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::GenresController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/genres/index.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.3ms | Allocations: 228)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/genres/index.html.erb:23
+  Rendered admin/genres/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5607)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 7796)
+
+
+Started GET "/admin/genres" for 114.177.27.197 at 2022-03-11 11:29:57 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::GenresController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/genres/index.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/genres/index.html.erb:23
+  Rendered admin/genres/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4828)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.2ms | Allocations: 6346)
+
+
+Started GET "/admin/customers" for 114.177.27.197 at 2022-03-11 11:29:59 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 1129)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 5391)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 5792)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:30:00 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 3080)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 6763)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.3ms | Allocations: 8266)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:30:56 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 3159)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 7667)
+Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 0.3ms | Allocations: 9176)
+
+
+Started GET "/admin/customers" for 114.177.27.197 at 2022-03-11 11:30:58 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 805)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1118)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 5372)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 5772)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:31:04 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3075)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 6746)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.3ms | Allocations: 8247)
+
+
+Started GET "/admin/customers" for 114.177.27.197 at 2022-03-11 11:31:05 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 805)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 1118)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 5372)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 5772)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:31:10 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6745)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.4ms | Allocations: 8246)
+
+
+Started GET "/admin/genres" for 114.177.27.197 at 2022-03-11 11:31:14 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::GenresController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/genres/index.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/genres/index.html.erb:23
+  Rendered admin/genres/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 4828)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.2ms | Allocations: 6344)
+
+
+Started GET "/admin/genres" for 114.177.27.197 at 2022-03-11 11:31:19 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::GenresController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/genres/index.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/genres/index.html.erb:23
+  Rendered admin/genres/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4828)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 6344)
+
+
+Started GET "/admin/customers" for 114.177.27.197 at 2022-03-11 11:31:20 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/admin/customers/index.html.erb:12
+  Rendered admin/customers/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 805)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:21
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1118)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 5373)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 5775)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:31:21 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 6745)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.3ms | Allocations: 8246)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:35:42 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 10878)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 14626)
+Completed 200 OK in 31ms (Views: 18.3ms | ActiveRecord: 1.7ms | Allocations: 23978)
+
+
+Started GET "/admin/items/new" for 114.177.27.197 at 2022-03-11 11:35:46 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 42)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2856)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6536)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 8191)
+
+
+Started POST "/admin/items" for 114.177.27.197 at 2022-03-11 11:35:47 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "item"=>{"name"=>"", "introduction"=>"", "genre_id"=>"", "tax_excluded_price"=>""}, "commit"=>"新規登録"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:15:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 2.7ms | Allocations: 2922)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 8077)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 11675)
+Completed 200 OK in 21ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 17047)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:35:56 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6747)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.3ms | Allocations: 8246)
+
+
+Started GET "/admin/items/new" for 114.177.27.197 at 2022-03-11 11:35:58 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1893)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 5564)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 7084)
+
+
+Started POST "/admin/items" for 114.177.27.197 at 2022-03-11 11:35:59 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "item"=>{"name"=>"", "introduction"=>"", "genre_id"=>"", "tax_excluded_price"=>""}, "commit"=>"新規登録"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 2.6ms | Allocations: 2563)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 7715)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 11313)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.2ms | Allocations: 13535)
+
+
+Started GET "/admin/items/new" for 114.177.27.197 at 2022-03-11 11:36:06 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 41)
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1893)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 9.6ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 5564)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.2ms | Allocations: 7083)
+
+
+Started GET "/admin/items" for 114.177.27.197 at 2022-03-11 11:36:07 +0000
+Cannot render console from 114.177.27.197! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:18
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:23
+  Rendered admin/items/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 3074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 6746)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.3ms | Allocations: 8247)
+
+
