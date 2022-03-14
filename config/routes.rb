@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   
 
-
 # ---------------　顧客用 ---------------
   # devise
   devise_for :customers, skip: [:passwords], controllers: {
@@ -13,32 +12,38 @@ Rails.application.routes.draw do
   root :to => "customer/homes#top"
   get 'about' => "customer/homes#about"
   
-  # customers
+  # マイページ
+  get '/mypage' => 'customer/customers#show'
+  
+  # 退会処理
+  patch '/customer/destroy' => 'customer/customers#destroy'
+  
   scope module: :customer do
+    
+    # customers
     resource :customer, only: [:edit, :update] do
       collection do
         get 'confim'
       end
     end
-  end
-  get '/mypage' => 'customer/customers#show'
-  patch '/customer/destroy' => 'customer/customers#destroy'
-  
-  # items
-  scope module: :customer do
+    
+    # items
     resources :items, only: [:index, :show]
-  end
-  
-  # cart_items
-  scope module: :customer do
+    
+    # cart_items
     resources :cart_items, only: [:index, :update, :destroy, :create] do
       collection do
         delete 'destroy_all'
       end
     end
+    
+    # addresses
+    resources :addresses, only: [:index, :edit, :create, :update, :destroy]
+    
+    
+    
   end
-  
-  
+
  
 # ---------------　管理者用 ---------------
   # devise
