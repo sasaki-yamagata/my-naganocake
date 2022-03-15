@@ -1,0 +1,67 @@
+<h3 class="order_info_cofirm_title">注文情報確認</h3>
+<div class="wrapper">
+  <table class="order_info_cofirm_table table-bordered">
+    <thead>
+      <tr>
+        <th>商品名</th>
+        <th>単価(税込)</th>
+        <th>数量</th>
+        <th>小計</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @cart_items.each do |cart_item| %>
+        <tr>
+          <td>
+            <%= image_tag cart_item.item.image, class: 'cart_item_img'%>
+            <%= cart_item.item.name %>
+          </td>
+          <td>
+            <%= cart_item.item.with_tax_price.to_s(:delimited) %>
+          </td>
+          <td>
+            <%= cart_item.amount %>
+          </td>
+          <td>
+            <%= cart_item.subtotal.to_s(:delimited) %>
+          </td>
+          <% @item_total_price += cart_item.subtotal %>
+        </tr>
+       <% end %>
+    </tbody>
+  </table>
+  <table class='table-bordered'>
+    <tr>
+      <th>送料</th><td><%= @order.ship_fee %></td>
+    </tr>
+    <tr>
+      <th>商品合計</th><td><%= @item_total_price.to_s(:delimited) %></td>
+    </tr>
+    <tr>
+      <th>請求金額</th>
+      <td><%= @order.total_price %></td>
+    </tr>
+  </table>
+</div>
+<table class="info_table">
+  <tr>
+    <th>支払方法</th>
+    <td><%= Order.payment_methods_i18n[@order.payment_method] %></td>
+  </tr>
+  <tr>
+    <th>お届け先</th>
+    <td><%= @order.address_display %></td>
+  </tr>
+</table>
+<%= form_with model: @order, url: orders_path do |f| %>
+  <%= f.hidden_field :ship_to_postal_code %>
+  <%= f.hidden_field :ship_to_address %>
+  <%= f.hidden_field :ship_to_name %>
+  <%= f.hidden_field :ship_fee %>
+  <%= f.hidden_field :payment_method %>
+  <%= f.hidden_field :total_price %>
+  <div class="submit-hidden">
+    <%= f.submit '注文を確定する', class: ' btn btn-success' %>
+  </div>
+  
+<% end %>

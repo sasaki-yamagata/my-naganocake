@@ -12,7 +12,7 @@
     <% @customers.each do |customer| %>
     <tr>
       <td><%= customer.id %></td>
-      <td><%= "#{customer.family_name} #{customer.first_name}" %></td>
+      <td><%= link_to "#{customer.family_name} #{customer.first_name}", admin_orders_path(customer_id: customer.id)  %></td>
       <td><%= customer.email %></td>
       <td>
         <% if customer.is_unsubscrib %>

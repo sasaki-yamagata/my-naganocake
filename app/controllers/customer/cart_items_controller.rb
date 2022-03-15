@@ -1,8 +1,8 @@
 class Customer::CartItemsController < ApplicationController
   before_action :authenticate_customer!
   def index
-    @cart_items = CartItem.all
-    @total_price = 0
+    @cart_items = CartItem.where(customer_id: current_customer.id)
+    @item_total_price = 0
   end
   
   def update
@@ -16,7 +16,7 @@ class Customer::CartItemsController < ApplicationController
   end
   
   def create
-    if CartItem.find_by(item_id: cart_item_params[:item_id])
+    if CartItem.find_by(item_id: cart_item_params[:item_id], customer_id: current_customer.id)
       @cart_item = CartItem.find_by(item_id: cart_item_params[:item_id])
       new_amount = @cart_item.amount + cart_item_params[:amount].to_i
       @cart_item.update(amount: new_amount)
