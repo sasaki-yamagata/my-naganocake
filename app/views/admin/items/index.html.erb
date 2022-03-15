@@ -4,6 +4,11 @@
    <i class="item_new_btn fa-solid fa-circle-plus"></i>
     <% end %>
 </div>
+<% if @keyword && @items.count == 0 %>
+    <p>「<%= @keyword %>」 の検索結果は見つかりませんでした</p>
+<% elsif @keyword %>
+    <p>「<%= @keyword %>」 の検索結果はこちら</p>
+<% end %>
 <table class="items_table table">
     <thead>
         <tr>

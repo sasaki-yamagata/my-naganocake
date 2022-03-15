@@ -1,7 +1,13 @@
 class Admin::ItemsController < ApplicationController
   before_action :authenticate_admin!
   def index
-    @items = Item.all
+    if params[:keyword]
+      @items = Item.search(params[:keyword])
+      @keyword = params[:keyword]
+    else
+      @items = Item.all
+    end
+    
   end
 
   def new
