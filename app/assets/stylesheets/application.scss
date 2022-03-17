@@ -341,3 +341,19 @@ ul {
   font-size: 32px;
   margin-top: 300px;
 }
+.item_index-left {
+  text-align: center;
+  float: left;
+  width: 200px;
+  margin-right: 100px;
+  border: 1px solid black;
+  .genre_search_title {
+    border-bottom: 1px solid black;
+    margin: 0;
+  }
+  .genre_list {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+}
